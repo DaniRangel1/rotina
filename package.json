@@ -1,16 +1,37 @@
 {
-  "name": "rotina",
-  "version": "1.0.0",
-  "description": "",
+ "name": "rotina",
+"productName": "Rotina",
+"version": "1.0.0",
+"description": "Organizador de tarefas por blocos do dia",
+"author": "Dani Rangel",
   "main": "main.js",
   "scripts": {
-  "start": "electron ."
+  "start": "electron .",
+  "loja": "electron-builder --win appx"
 },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "electron": "^45.2.3"
+    "electron": "^45.2.3",
+    "electron-builder": "^26.18.0"
+  },"build": {
+  "appId": "com.danirangel.rotina",
+  "productName": "Rotina",
+  "directories": {
+    "output": "release"
+  },
+  "win": {
+    "target": "appx",
+    "icon": "icone.ico"
+  },
+  "appx": {
+    "identityName": "DaniRangel.Rotina",
+    "publisher": "CN=E784E44A-CE5B-49B7-837B-7D0C55BB1CCA",
+    "publisherDisplayName": "Dani Rangel",
+    "applicationId": "Rotina",
+    "displayName": "Rotina"
   }
+}
 }

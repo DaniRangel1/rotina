@@ -124,3 +124,37 @@ section.agora h2::after {
   font-weight: normal;
   color: #66727c;
 }
+#pomodoro {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  margin-bottom: 24px;
+  background: #ffffff;
+  border: 1px solid #d3dadf;
+  border-radius: 10px;
+}
+
+#pomodoro[hidden] {
+  display: none;
+}
+
+#pomo-rotulo {
+  flex: 1;
+  color: #66727c;
+  font-size: 16px;
+}
+
+#pomo-tempo {
+  font-size: 26px;
+}
+
+#pomodoro button {
+  font-size: 15px;
+  padding: 8px 12px;
+  color: #66727c;
+  background: none;
+  border: 1px solid #d3dadf;
+  border-radius: 8px;
+  cursor: pointer;
+}
