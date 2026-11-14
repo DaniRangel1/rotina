@@ -63,4 +63,4 @@ rotina/
 
 ## Autor
 
-**Dai Rangel**, estudante de Ciência da Computação.
+**Dani Rangel**, estudante de Ciência da Computação.
